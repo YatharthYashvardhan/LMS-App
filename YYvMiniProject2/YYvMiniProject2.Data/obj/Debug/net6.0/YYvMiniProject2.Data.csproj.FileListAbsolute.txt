@@ -1,0 +1,14 @@
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\bin\Debug\net6.0\YYvMiniProject2.Data.deps.json
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\bin\Debug\net6.0\YYvMiniProject2.Data.runtimeconfig.json
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\bin\Debug\net6.0\YYvMiniProject2.Data.dll
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\bin\Debug\net6.0\YYvMiniProject2.Data.pdb
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.csproj.AssemblyReference.cache
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.AssemblyInfoInputs.cache
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.AssemblyInfo.cs
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.csproj.CoreCompileInputs.cache
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.dll
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\refint\YYvMiniProject2.Data.dll
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.pdb
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\YYvMiniProject2.Data.genruntimeconfig.cache
+C:\Users\yatharthyashvardhan\OneDrive - Nagarro\Desktop\myProject\yatharth-yashvardhan\YYvMiniAssignment2\YYvMiniProject2\YYvMiniProject2.Data\obj\Debug\net6.0\ref\YYvMiniProject2.Data.dll

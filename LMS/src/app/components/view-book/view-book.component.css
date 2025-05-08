@@ -1,0 +1,82 @@
+.card {
+    margin: 20px 0;
+  }
+  
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container.card.fadeInDown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .borrow-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .container {
+    background-color: #1e1e1e; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(235, 40, 40, 0.5); 
+    margin-top: 60px;
+  }
+
+  .table {
+    color: #fff;
+  }
+
+  .table th,
+  .table td {
+    border: none; 
+  }
+
+  .table thead th {
+    background-color: #343a40; 
+    color: gold;
+  }
+
+  .table tbody tr {
+    background-color: #2c2c2c; 
+  }
+
+  .table tbody tr:nth-child(odd) {
+    background-color: #222222; 
+  }
+
+  .table a {
+    color: #17a2b8;
+  }
+
+  .user-greeting {
+    background-color: #6c6646; 
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; 
+  }
+  .fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

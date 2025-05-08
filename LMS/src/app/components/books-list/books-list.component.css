@@ -1,0 +1,80 @@
+
+  .content {
+    margin-top: 100px; 
+  }
+
+  .container {
+    background-color: #1e1e1e; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(235, 40, 40, 0.5); 
+  }
+
+  .table {
+    color: #fff;
+  }
+
+  .table th,
+  .table td {
+    border: none; 
+  }
+
+  .table thead th {
+    background-color: #343a40; 
+    color: gold;
+  }
+
+  .table tbody tr {
+    background-color: #2c2c2c; 
+  }
+
+  .table tbody tr:nth-child(odd) {
+    background-color: #222222; 
+  }
+
+  .table a {
+    color: #17a2b8;
+  }
+
+  .user-greeting {
+    background-color: #c4a707; 
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block; 
+  }
+  .fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .search-bar {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+  }
+
+  .search-bar input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #1e1e1e;
+    color: #c4a707;
+    border: 1px solid #c4a707; 
+  }
+
+  .search-bar input::placeholder {
+    color: #c4a707; 
+  }
+  .search-bar input:focus {
+    box-shadow: 0 0 10px rgba(253, 253, 0, 0.5);
+  }

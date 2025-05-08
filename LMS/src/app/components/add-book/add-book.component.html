@@ -1,0 +1,57 @@
+<div class="content fadeInDown">
+  <div class="container">
+    <h2 class="mb-5" style="color: gold;">Book Form</h2>
+    <div class="form-container">
+      <form [formGroup]="addBook" (ngSubmit)="Submit()" *ngIf="addBook">
+        <div class="form-group">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" id="name" class="form-input" placeholder="Enter book name" formControlName="name">
+          <div class="text-danger" *ngIf="addBook.get('name')?.hasError('required') && (addBook.get('name')?.dirty || addBook.get('name')?.touched)">
+            Name is required
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="author" class="form-label">Author:</label>
+          <input type="text" id="author" class="form-input" placeholder="Enter author name" formControlName="author">
+          <div class="text-danger" *ngIf="addBook.get('author')?.hasError('required') && (addBook.get('author')?.dirty || addBook.get('author')?.touched)">
+            Author is required
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="rating" class="form-label">Rating:</label>
+          <input type="number" id="rating" class="form-input" placeholder="Enter Rating" formControlName="rating">
+          <div class="text-danger" *ngIf="addBook.get('rating')?.hasError('required') && (addBook.get('rating')?.dirty || addBook.get('rating')?.touched)">
+            Rating is required
+          </div>
+          <div class="text-danger" *ngIf="addBook.get('rating')?.hasError('pattern')">
+            Only one digit of decimal is required
+          </div>
+          <div class="text-danger" *ngIf="addBook.get('rating')?.hasError('min') || addBook.get('rating')?.hasError('max')">
+            Enter a valid rating (0-5)
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="genre" class="form-label">Genre:</label>
+          <input type="text" id="genre" class="form-input" placeholder="Enter book genre" formControlName="genre">
+          <div class="text-danger" *ngIf="addBook.get('genre')?.hasError('required') && (addBook.get('genre')?.dirty || addBook.get('genre')?.touched)">
+            Genre is required
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description" class="form-label">Description:</label>
+          <textarea id="description" class="form-input" placeholder="Enter book description" formControlName="description"></textarea>
+          <div class="text-danger" *ngIf="addBook.get('description')?.hasError('required') && (addBook.get('description')?.dirty || addBook.get('description')?.touched)">
+            Description is required
+          </div>
+        </div>
+
+        <button type="submit" class="form-submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+

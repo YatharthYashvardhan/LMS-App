@@ -1,0 +1,42 @@
+<div class="content fadeInDown">
+  <div class="container">
+    <p class="user-greeting" *ngIf="isLoggedIn">Hello, {{email}}</p>
+    <div class="search-bar">
+      <input
+        type="text"
+        placeholder="Search"
+        (input)="filterBook()"
+        #searchInput
+      >
+    </div>
+    <div class="table-responsive">
+      <table class="table align-middle mb-0 custom-table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Author</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Genre</th>
+            <th scope="col" *ngIf="isLoggedIn"></th>
+          </tr>
+        </thead>
+        <tbody>
+        <tbody>
+          <tr scope="row" *ngFor="let book of filteredBookData ; let i = index">
+            <td>
+              {{i+1}}
+            </td>
+            <td><b>{{book.name}}</b></td>
+            <td>
+              {{book.author}}
+            </td>
+            <td>{{book.rating}}</td>
+            <td>{{book.genre}}</td>
+            <td *ngIf="isLoggedIn"><button class="more btn" [routerLink]="'ViewBook/' + book.book_Id" [ngStyle]="{'color':'black' , 'background-color': 'red'}">Details</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

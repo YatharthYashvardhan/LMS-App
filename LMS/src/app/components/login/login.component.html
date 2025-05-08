@@ -1,0 +1,26 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <div class="fadeIn first">
+        <i class="fa fa-user-circle" style="font-size: 48px; color: rgb(183, 157, 14);"></i>
+      </div>
+      <form [formGroup]="SigninUser" class="add" autocomplete="off" (ngSubmit)="LoginUser()">
+        <div class="mb-3">
+          <input type="email" name="email" id="email" required class="form-control fadeIn second" formControlName="email" placeholder="Email">
+          <div class="form-text text-span" *ngIf="Email.errors?.['required'] && (Email.touched || Email.dirty)">
+            Email is required
+          </div>
+        </div>
+        <div class="mb-3">
+          <input type="password" id="password" name="Password" required class="form-control fadeIn third" formControlName="Password" placeholder="Password">
+          <div class="form-text text-span" *ngIf="Password.errors?.['required'] && (Password.touched || Password.dirty)">
+            Password is required
+          </div>
+        </div>
+        <input type="submit" class="fadeIn fourth" value="Log In">
+      </form>
+      <div id="formFooter">
+        <a class="underlineHover" routerLink="/RegisterUser">Don't have an account</a>
+      </div>
+    </div>
+  </div>
+  
